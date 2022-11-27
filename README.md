@@ -28,10 +28,12 @@
 
 ### The following queries of code would describe the precipitation that occurred in these two months, which could bring more information when making decisions for the business, because by knowing this data, the climate that occurred in these months could be studied in more depth and learn how they differ and how they could affect or benefit the business.
 
+#### 1
 #### june_prcp = session.query(Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 #### june_prcp_df = pd.DataFrame(june_prcp)
 #### june_prcp_df.describe()
 
+#### 2
 #### dec_prcp = session.query(Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 #### dec_prcp_df = pd.DataFrame(dec_prcp)
 #### dec_prcp_df.describe()
