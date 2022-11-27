@@ -10,9 +10,9 @@
 
 ### Meanwhile, December had 1517 temperature data analyzed with a mean of 71.04, a standard deviation of 3.74, with a minimum temperature of 56 and a maximum of 83.
 
-img
+![June](https://github.com/jjgomezg17/surfs_up/blob/main/Images/June.png)
 
-img
+![December](https://github.com/jjgomezg17/surfs_up/blob/main/Images/December.png)
 
 ### This may lead us to think that the month of June may be more accurate than December in measures of central tendency, seeing that June has about 200 more samples, however there is not enough statistical evidence to support this.
 
